@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+}
+
+header {
+    height: 80px;
+    width: 100vw;
+    padding-left: 60px;
+    padding-top: 25px;
+}
+
+main {
+    width: 100vw;
+    height: 80vh;
+    margin-top: 193px;
+    margin-bottom: 273px;
+}
+
+section > h1 {
+    color: white;
+    font-size: 64px;
+    font-weight: 400;
+    
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+nav {
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.user {
+    margin-left: 20px;
+    margin-right: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.iconuser {
+    
+    cursor: pointer;
+}
+
+#iconadd {
+    margin: 40px;
+    cursor: pointer;
+}
+
+.user > h2 {
+    color:#6D6D6EB2;
+    font-size: 25px;
+    cursor: default;
+    margin-top: 20px;
+    font-weight: 400;
+}
+
+#btnprof {
+    height: 53px;
+    width: 308px;
+    background-color: black;
+    border: 2px solid #6D6D6EB2;
+    color: #808080;
+    font-size: 26px;
+    padding-left: 30px;
+    padding-right: 3px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+#btnprof:hover {
+    background-color: #6D6D6EB2;
+    border: 2px solid #6D6D6EB2;
+    color: black;
+}
+
